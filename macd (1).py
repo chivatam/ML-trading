@@ -1,11 +1,4 @@
-# =============================================================================
-# Import OHLCV data and calculate MACD technical indicator
-# Author : Mayank Rasu (http://rasuquant.com/wp/)
 
-# Please report bug/issues in the Q&A section
-# =============================================================================
-
-# Import necesary libraries
 import yfinance as yf
 import datetime as dt
 import matplotlib.pyplot as plt
