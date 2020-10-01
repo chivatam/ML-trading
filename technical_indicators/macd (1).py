@@ -5,7 +5,7 @@ import datetime as dt
 import matplotlib.pyplot as plt
 
 # Download historical data for required stocks
-ticker = "MSFT"
+ticker = "AAPL"
 ohlcv = yf.download(ticker,dt.date.today()-dt.timedelta(1825),dt.datetime.today())
 
 def MACD(DF,a,b,c):
